@@ -1,0 +1,177 @@
+/* CSS for ProductManagement component */
+
+.product-management-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for product listings */
+.product-listings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* Heading for product listings */
+.product-listings h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Styles for adding or updating products form */
+.add-update-product-form {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for product tiles */
+.product-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for individual product tile */
+.product-tile {
+  width: calc(50% - 20px);
+  max-width: 200px; 
+  height: auto; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(241, 234, 255);
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styles for image inside product tile */
+.product-tile img {
+  width: 100%;
+  height: auto; 
+  border-radius: 5px;
+}
+
+/* Styles for information section inside product tile */
+.product-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styles for title of the product */
+.product-info h3 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.product-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Styles for buttons for editing and deleting products */
+.product-info button{
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid #D0A2F7;
+  border-radius: 8px;
+  background-color: #ede5f9;
+}
+
+/* Hover effect on buttons */
+.product-info button:hover{
+  background-color: #D0A2F7;
+}
+
+/* Styles for add/update product form */
+.add-product-form {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  max-width: 400px;
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px;
+  left: 38%;
+  background-color: #F1EAFF;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 20px rgb(229, 212, 255, 0.3);
+}
+
+/* Styles for buttons inside the form */
+.add-update-product-form button{
+  margin: 10px;
+}
+
+.form_button{
+  background-color: #E5D4FF;
+  border: 2px solid #D0A2F7;
+  border-radius: 10px;
+  height: 30px;
+  position: fixed;
+  right: 20px;
+}
+
+/* Hover effect on buttons */
+.add-update-product-form button:hover {
+  background-color: #D0A2F7;
+}
+
+/* Styles for form labels*/
+.add-product-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.add-product-form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+
+.add-product-form button:hover {
+  background-color: #45a049;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .product-tile {
+    width: calc(50% - 20px); /* Adjust width for small screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product-tile {
+    width: calc(100% - 20px); /* Adjust width for extra small screens */
+  }
+
+  .add-update-product-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add-product-form {
+    position: relative;
+    left: auto;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .form_button {
+    position: fixed;
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
