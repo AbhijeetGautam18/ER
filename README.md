@@ -1,4 +1,5 @@
 <h1>Documentation</h1>
+<p>ENTNT Technical Assignemnt: Simplified ERP System by Abhijeet Gautam</p><br/>
 <h2>1. Project Overview</h2>
 <p>An ERP (Enterprise Resource Planning) system is a software solution that integrates and manages core business processes and functions across an organization. It serves as a centralized platform for managing various aspects of business operations, including finance, human resources, supply chain, manufacturing, inventory, sales, and customer relationship management.</p>
 <p>I have made an ERP sytem for a hypothetical lighting enterprise named "Gautam Lighting Solutions". This ERP system has mainly five pages or components namely
