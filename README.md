@@ -25,10 +25,18 @@ git clone https://github.com/AbhijeetGautam18/ERP-System.git</p>
 cd ERP-System</p>
 <p>Step 3: To install the dependencies listed in package.json, run the followinf command:<br/>
 npm install</p>
+<p>This will take 5-7 minutes, once completed follow next step.</p>
 <p>Step 4: Now to run this website on your system, use following command:<br/>
 npm start</p>
 <p> After following these steps, website will start running on your localhost server.</p>
+<p>Refer to the video below for setting up the project.</p>
+<h3>Project Setup Video</h3>
 <video src = 'https://github.com/AbhijeetGautam18/ERP-System/assets/79470730/3e372643-d3e8-49ac-93ee-ea53c7bd04d0'></video>
+
+<h2>Interaction with website</h2>
+<p>Once the project is set up, user can navigate the website using navbar which has links to other pages.</p>
+<p>Refer this video to see working of website:</p>
+
 
 
 
