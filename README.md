@@ -1,7 +1,7 @@
 Documentation
 =============
 
-ENTNT Technical Assignemnt: Simplified ERP System by Abhijeet Gautam.
+ENTNT Technical Assignemnt: Simplified ERP System using react by Abhijeet Gautam.
 
   
 
