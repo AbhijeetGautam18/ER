@@ -17,3 +17,4 @@ npm install</p>
 <p>Step 4: Now to run this website on your system, use following command:<br/>
 npm start</p>
 <p> After following these steps, website will start running on your localhost server.</p>
+![dash2](https://github.com/AbhijeetGautam18/ERP-System/assets/79470730/e816c024-4b0a-4916-aa2f-d07077f3050b)
