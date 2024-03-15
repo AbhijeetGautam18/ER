@@ -8,4 +8,12 @@
 
 <h2>2. Project Setup</h2>
 <p> To run/setup this project in your system follow the steps:</p>
-<p>Step 1: Clone this repository in a folder of your system.</p>
+<p>Step 1: Clone this repository in a folder of your system. To clone this repository use the following command:<br/>
+git clone https://github.com/AbhijeetGautam18/ERP-System.git</p>
+<p>Step 2: Go to the main directory named 'ERP-System'. To change directory to ERP-System, run the following command:<br/>
+cd ERP-System</p>
+<p>Step 3: To install the dependencies listed in package.json, run the followinf command:<br/>
+npm install</p>
+<p>Step 4: Now to run this website on your system, use following command:<br/>
+npm start</p>
+<p> After following these steps, website will start running on your localhost server.</p>
