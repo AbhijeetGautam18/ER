@@ -1,0 +1,50 @@
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.circle {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  box-shadow: inset 0 0 10px #DCBFFF;
+}
+
+.watch-face {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.watch-time {
+  font-size: 28px;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.watch-date {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.day,
+.date,
+.month,
+.year {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .watch, .circle {
+    height: 210px;
+    width: 210px;
+  }
+}

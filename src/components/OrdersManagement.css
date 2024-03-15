@@ -1,0 +1,120 @@
+/* OrdersManagement.css */
+
+.orders-management-container {
+  margin: 20px;
+}
+
+/* Heading style for orders management */
+.orders-management-container h2 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2rem; /* Responsive font size */
+}
+
+/* Style for the orders list */
+.orders-list {
+  margin-bottom: 60px;
+  overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+/* Styles for table */
+.orders-list table {
+  width: 95vw;
+  border-collapse: collapse;
+}
+
+/* Styles for table cells */
+.orders-list td,
+.orders-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Setting background color for table header */
+.orders-list thead{
+  background-color: #D0A2F7;
+}
+
+/* Hover effect for table rows */
+.orders-list tr:hover {
+  background-color: #f4ecff;
+}
+
+/* Button and select styles for orders list */
+.orders-list button,
+.orders-list select {
+  margin-right: 5px;
+  border: 2px solid #D0A2F7;
+  border-radius: 10px;
+  background-color: #F1EAFF;
+}
+
+/* Hover effect for buttons */
+.orders-list button:hover {
+  background-color: #D0A2F7;
+}
+
+/* Style for order details modal */
+.order-details-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the modal */
+  max-width: 90%; /* Adjust maximum width */
+  max-height: 90%; /* Adjust maximum height */
+  overflow: auto; /* Enabling scrolling if content exceeds modal dimensions */
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5) outset;
+  background-color: #E5D4FF;
+}
+
+/* Style for images inside modal */
+.order-details-modal img {
+  display: flex;
+  margin:  auto; 
+  max-width: 40%;
+  max-height: 60vh;
+}
+
+/* Style for close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Style for footer */
+footer {
+  width: 100%;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .orders-management-container h2 {
+    font-size: 1.5rem; /* Adjusting font size for small screens */
+  }
+
+  .order-details-modal {
+    width: 70%;
+    height: auto; 
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .orders-list th,
+  .orders-list td {
+    padding: 5px; /* padding for small screens */
+  }
+}
