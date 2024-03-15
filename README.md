@@ -3,6 +3,8 @@ Documentation
 
 ENTNT Technical Assignemnt: Simplified ERP System using react by Abhijeet Gautam.
 
+Website Link: https://gautam-lightings-erp-system.web.app
+
   
 
 1\. Project Overview
