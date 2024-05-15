@@ -112,5 +112,3 @@ The various features of website are:
 6.  In Product Management page, user can add/edit/delete a product. User can also add the images of product.
 7.  In Order Management page, user can update the status of their orders and can also see order details along with order image.
 8.  The website is fully responsive. (Demo can be seen in Website Interaction video)
-
-All the required and optional features asked in assessment is fulfilled.
